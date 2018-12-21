@@ -30,11 +30,11 @@ while not win:
 		print ('Close! Guess lower')
 	# for some reason, everything from this point doesn't work. an error on line 31 pops up at 2
 	# and I think that it will pop up on each one after so on 3,4, and 4. not sure why.
-	if tries < 2
+	elif tries < 2:
 		print ('You won $100,000!')
-	if tries < 3
+	elif tries < 3:
 		print ('You won $50,000!')
-	if tries < 4
+	elif tries < 4:
 		print ('You won $25,000!')
-	if tries > 4
+	elif tries > 4:
 		print ('You didn\'t win any money. Better luck next time!')
