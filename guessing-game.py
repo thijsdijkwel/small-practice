@@ -28,8 +28,7 @@ while not win:
 	elif guess > number:
 		win = false
 		print ('Close! Guess lower')
-	# for some reason, everything from this point doesn't work. an error on line 31 pops up at 2
-	# and I think that it will pop up on each one after so on 3,4, and 4. not sure why.
+
 	elif tries < 2:
 		print ('You won $100,000!')
 	elif tries < 3:
