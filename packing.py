@@ -9,6 +9,12 @@ toiletries = (['shampoo', 'conditioner', 'toothbrush', 'toothpaste', 'mouthwash'
 medical = (['prescriptions', 'tylenol', 'melatonin', 'first aid kid',])
 miscellaneous = (['credit cards', 'debit cards', 'cash', 'water bottle', 'beach towel', 'thank you cards', 'packing organizer', 'laundry', 'snacks'])
 everything = clothes + electronics + toiletries + medical + miscellaneous
-
-
 print random.choice(everything)
+# need to create a function that removes the item if I say True and shuffles it back in if I say False
+if random.choice(everything) == True:
+	print everything.remove()
+print(len(everything))
+if random.choice(everything) == False:
+	print 'shuffling item back into list'
+print(len(everything))
+
