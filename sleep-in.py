@@ -11,9 +11,15 @@ def sleep_in(weekday, vacation):
 		return True
 	else:
 		return False
-
-	def sleep_in(weekday, vacation):
-		if weekday == True and vacation == not True
+# or
+def sleep_in(weekday, vacation):
+	if weekday == True and vacation == False:
 		return False
 	else: 
 		return True
+
+wake_up = False
+if wake_up == False:
+	print ('You can\'t sleep in today!')
+elif wake_up == True:
+	print ('Go back to sleep, you get to sleep in!')
