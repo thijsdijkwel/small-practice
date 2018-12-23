@@ -3,21 +3,26 @@
 # I pack whatever pops up. After it pops up, I enter True or False for whether I packed it or not.
 # If True, have the item be taken off of the list. If False, have the item be shuffled back in.
 import random
+
 clothes = (['undergarments', 'pants','tshirts','hoodie','sweater','jacket','rain jacket','shoes','watch', 'belts','hats', 'scarf', 'swimwear','formal'])
 electronics = (['camera', 'USB', 'charging adapter', 'headphones', 'flashlight', 'gopro', 'macbook', 'calculator',])
 toiletries = (['shampoo', 'conditioner', 'toothbrush', 'toothpaste', 'mouthwash', 'deoderant', 'comb', 'pomade', 'anti-wrinkle spray','contacts', 'contact solution', 'glasses', 'razor'])
 medical = (['prescriptions', 'tylenol', 'melatonin', 'first aid kid',])
 miscellaneous = (['credit cards', 'debit cards', 'cash', 'water bottle', 'beach towel', 'thank you cards', 'packing organizer', 'laundry', 'snacks'])
 everything = clothes + electronics + toiletries + medical + miscellaneous
+
 item = random.choice(everything) 
 print item
-# need to create a function that removes the item if I say True and shuffles it back in if I say False
-if item == True:
-	item.remove(everything(item))
-print(len(everything))
-if item == False:
+# I think i need to define function, return, and use a boolean 
 
-	item = True
+if item == True:
+	everything.remove(item)
+	print(len(everything))
+
+if item == False:
+	print ('shuffling item back into list')
+	print(len(everything))
+
+item = True
 print(len(everything))
-# call the remove function on the random item instead of everything
-# if item =
+
