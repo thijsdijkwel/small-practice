@@ -24,5 +24,4 @@ if item == False:
 	print(len(everything))
 
 item = True
-print(len(everything))
-
+print(len(everything)) 
