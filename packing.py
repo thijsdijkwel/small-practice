@@ -14,8 +14,7 @@ everything = clothes + electronics + toiletries + medical + miscellaneous
 item = random.choice(everything) 
 print item
 # I think i need to define function, return, and use a boolean 
-
-def packed: 
+ 
 	return everything.remove(item)
 if item == True:
 	everything.remove(item)
