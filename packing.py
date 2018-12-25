@@ -25,3 +25,5 @@ if item == False:
 
 item = True
 print(len(everything)) 
+
+# BRUHHHHHHH i give up
