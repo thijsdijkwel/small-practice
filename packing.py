@@ -13,9 +13,8 @@ everything = clothes + electronics + toiletries + medical + miscellaneous
 
 item = random.choice(everything) 
 print item
-# I think i need to define function, return, and use a boolean 
- 
-	return everything.remove(item)
+# I think i need to define function, return, and use a boolean  
+
 if item == True:
 	everything.remove(item)
 	print(len(everything))
