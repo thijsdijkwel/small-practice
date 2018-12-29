@@ -10,7 +10,7 @@ toiletries = (['shampoo', 'conditioner', 'toothbrush', 'toothpaste', 'mouthwash'
 medical = (['prescriptions', 'tylenol', 'melatonin', 'first aid kid',])
 miscellaneous = (['credit cards', 'debit cards', 'cash', 'water bottle', 'beach towel', 'thank you cards', 'packing organizer', 'laundry', 'snacks'])
 everything = clothes + electronics + toiletries + medical + miscellaneous
-
+print everything
 item = random.choice(everything) 
 print item
 # I think i need to define function, return, and use a boolean  
