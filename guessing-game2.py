@@ -1,9 +1,9 @@
- 
+
 binary=False                    
 lonum,hinum=1,128               
  
 import random as r
- 
+ #lonum and hinum = low number and high number
 the_num=r.randint(lonum,hinum)  # computer chooses a number randomly
 print("I'm thinking of a number between",lonum,"and",hinum)
  
@@ -16,7 +16,7 @@ for i in range(lonum,hinum):
     if binary:  guess=lo+(hi-lo)//2     
     else:       guess=r.randint(lo,hi)
     print("Guess:",guess)
-    guesses+=1                      
+    guesses+=1     # this adds 1 to the total count of guesses                 
                                     
     if guess &amp;gt; the_num:
         print("Lower!")
